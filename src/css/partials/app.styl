@@ -1,0 +1,69 @@
+.navpane-wrap
+  width: $navpane-width
+  height: 100%
+  position: absolute
+
+.main-wrap
+  height: 100%
+  margin-left: $navpane-width
+  background-color: $gray-lightest
+  border-radius: 10px
+
+.stage-wrap
+  min-height: 900px
+  padding: 20px
+  padding-top: 10px
+
+.toolbar-wrap
+  _box-shadow($toolbar-shadow)
+  background-color: #fff
+  height: $toolbar-height
+  padding: 0 20px;
+  .toolbar-container
+    line-height: $toolbar-height
+    position: relative
+
+.toolbar-component
+  display: inline-block
+  vertical-align: middle
+  line-height: 1
+  .page-title
+    font-size: 1.7em
+
+.toolbar-pos-right,
+.toolbar-pos-left,
+.toolbar-pos-center
+  display: block
+  vertical-align: middle
+  line-height: $toolbar-height
+  position: absolute
+  // _border-test()
+
+.toolbar-pos-left
+  text-align: left
+  left: 0
+
+.toolbar-pos-center
+  text-align: center
+  display: block
+  width: 100%
+
+.toolbar-pos-right
+  text-align: right
+  right: 0
+
+
+
+
+
+
+// .dev-notes
+//   position: fixed
+//   top: 100px
+//   right: 50px
+//   width: 500px
+//   min-height: 50px
+//   padding: 20px
+//   padding-top: 0
+//   background-color: rgba(255,255,255,0.7)
+//   _border()
