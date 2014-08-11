@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#capacity_title{
+	font-weight:normal;
+	margin-bottom:30px;
+}
+
+.buttons{
+	border:1px solid #CCC;
+	width:100%;
+	height:35px;
+	line-height:35px;
+	font-size:16px;
+	color:#AAA;
+	border-radius:5px;
+	margin:10px 0px;
+}
+
+.buttons:hover{
+	cursor:pointer;
+	background-color:#EEE;
+}

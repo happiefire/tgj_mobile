@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>完善个人信息 -- 题管家</title>
+	<link rel="stylesheet" href="jquery_mobile/jquery.mobile-1.4.3.min.css" />
+    <link rel="stylesheet" href="css/mobile/common.css" />
+    <link rel="stylesheet" href="css/mobile/perfect.css"/>
+    <script src="jquery_mobile/jquery.min.js"></script>
+    <script src="jquery_mobile/jquery.mobile-1.4.3.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" data-theme="a">
+      <div data-role="content">
+      	<label id="parent_perfect_back" onClick="javascript:location.href='capacity.html'">&lt;- 返回重新选择身份</label>
+      	<h2 id="parent_perfect_title">完善个人信息</h2>
+        <div data-role="fieldcontain">
+        	<form method="post" action="">
+              <label for="username" class="ui-hidden-accessible">username</label>
+              <input type="text" name="username" id="username" data-role="none" class="inputs" placeholder="姓名" />
+              <label for="tel" class="ui-hidden-accessible">password</label>
+              <input type="tel" name="tel" data-role="none" id="tel" class="inputs" placeholder="手机号码(选填)" />
+              <button type="submit" class="ui-state-persist" id="finished" >完成</button>
+            </form>
+        </div>
+      </div>
+    </div> 
+</body>
+</html>

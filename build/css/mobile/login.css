@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#index_title{
+	font-weight:normal;
+	margin-top:30px;
+}
+
+#login{
+	background-color:#06F;
+	color:#FFF;
+	font-weight:normal;
+}
+
+#register{
+	background-color:#666;
+	color:#FFF;
+	font-weight:normal;
+}

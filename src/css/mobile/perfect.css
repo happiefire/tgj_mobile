@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#parent_perfect_title{
+	font-weight:normal;
+	margin-top:30px;
+}
+
+#parent_perfect_back{
+	color:#BBB;
+	text-align:left;
+}
+
+#finished{
+	background-color:#666;
+	font-weight:normal;
+	color:#FFF;
+	margin-top:40px;
+}
