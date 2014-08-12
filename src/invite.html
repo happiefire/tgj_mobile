@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>邀请 -- 题管家</title>
+	<link rel="stylesheet" href="jquery_mobile/jquery.mobile-1.4.3.min.css" />
+    <link rel="stylesheet" href="css/mobile/common.css" />
+    <link rel="stylesheet" href="css/mobile/invite.css" />
+    <script src="jquery_mobile/jquery.min.js"></script>
+    <script src="jquery_mobile/jquery.mobile-1.4.3.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page">
+      <div data-role="header">
+      	<a data-role="button" data-icon="arrow-l" href="individual_center.html" data-transition="slide" data-iconpos="notext"></a>
+        <h1>邀请父皇/母后</h1>
+      </div>
+    
+      <div data-role="content">
+      	<form action="" method="post">
+        	<label for="fatherTel" class="ui-hidden-accessible">fatherTel</label>
+        	<input type="tel" id="fatherTel" name="fatherTel"  data-role="none" class="inputs" placeholder="父皇手机号码" />
+        	<label for="matherTel" class="ui-hidden-accessible">matherTel</label>
+        	<input type="tel" id="matherTel" name="matherTel"  data-role="none" class="inputs" placeholder="母后手机号码" />
+            <button type="submit" class="ui-state-persist"  id="confirmEdit">发送邀请</button>
+        </form>
+      </div>
+    </div> 
+</body>
+</html>
