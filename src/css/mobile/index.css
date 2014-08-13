@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+#messageInfo{
+	border:1px solid #DDD;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	background-color:#FDF8E2;
+	/*display:none;*/
+}
+#messageInfo .info{
+	font-size:12px;
+	color:#66F;
+	margin-left:8px;
+	float:left;
+}
+#messageInfo .join{
+	border:1px solid #BBB;
+	width:50px;
+	line-height:30px;
+	color:#333;
+	float:right;
+	border-radius:5px;
+	background-color:#EEE;
+	margin-right:8px;
+	position:relative;
+	top:4px;
+	overflow:hidden;
+}
+#messageInfo .join:hover{
+	background-color:#DDD;
+	cursor:pointer;
+}
+#map{
+	border:1px dotted red;
+	width:100%;
+	height:240px;
+	background-color:#EEE;
+}
+.score{
+	width:100%;
+	height:60px;
+}
+.result, .grade{
+	border:1px solid #BBB;
+	border-left:none;
+	width:49.5%;
+	line-height:30px;
+	float:left;
+}
+.grade{
+	float:right;
+}
+.class_option{
+	border:1px solid blue;
+	width:100%;
+	height:40px;
+}
