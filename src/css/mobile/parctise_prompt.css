@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+p{
+	font-weight:bold;
+	text-align:left;
+}
+
+.auto{
+	width:100%;
+	margin:40px 0px;
+}
+
+.ckbox{
+	float:left;
+	position:relative;
+	top:4px;
+	margin-right:10px;
+}
+
+.displayInfo{
+	font-size:12px;
+	font-weight:normal;
+	text-align:left;
+}
+
+
+#login{
+	background-color:#09F;
+	color:#FFF;
+	font-weight:normal;
+	margin-top:50px;
+}

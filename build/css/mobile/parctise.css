@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+#titleInfo{
+	border-bottom:1px solid #BBB;
+	width:100%;
+	height:40px;
+	line-height:40px;
+}
+
+#titleInfo .info{
+	color:#555;
+	margin-left:8px;
+	float:left;
+}
+
+#titleInfo .number{
+	color:#555;
+	float:right;
+	margin-right:8px;
+}
+
+.topical{
+	border-bottom:1px solid #BBB;
+	width:100%;
+	min-height:50px;
+	height:auto;
+	background-color:#FFF;
+	padding:20px 0px;
+	overflow:auto;
+}
+
+.topical_title{
+	font-size:15px;
+	font-weight:bold;
+	text-align:left;
+	margin-left:8px;
+}
+.options{
+	border-bottom:1px solid #BBB;
+	width:100%;
+	min-height:20px;
+	text-align:left;
+	height:auto;
+	padding:10px 0px;
+	overflow:auto;
+}
+.option{
+	font-size:15px;
+	text-align:left;
+	margin-left:15px;
+}
