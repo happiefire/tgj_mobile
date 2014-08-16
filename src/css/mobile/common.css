@@ -12,6 +12,15 @@ ul,li,ol,dl{
 	list-style-type:none;
 }
 
+a{
+	color:#06F;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
 .inputs{
 	border:1px solid #CCC;
 	width:100%;

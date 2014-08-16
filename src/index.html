@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="css/mobile/index.css"/>
     <script src="jquery_mobile/jquery.min.js"></script>
     <script src="jquery_mobile/jquery.mobile-1.4.3.min.js"></script>
+    <script src="js/mobile/index.js"></script>
 </head>
 
 <body>
 	<div data-role="page">
       <div data-role="header">
-      	<button data-icon="grid" data-iconpos="notext"></button>
+      	<button data-icon="grid" id="btnMenu" data-iconpos="notext"></button>
         <h1>首页</h1>
       </div>
       <ul id="messageInfo">
@@ -46,6 +47,18 @@
       <div>
       	<ul class="class_option">
         	<!--后台填充-->
+        </ul>
+      </div>
+      <div id="menu">
+      	<ul class="menu_options">
+        	<li class="menu_option"></li>
+        	<li class="menu_option">首页</li>
+        	<li class="menu_option">练习中心</li>
+        	<li class="menu_option">学情报告</li>
+        </ul>
+        <ul class="menu_options_info">
+        	<li class="menu_option_info">班级：XXXX班</li>
+        	<li class="menu_option_info">个人中心</li>
         </ul>
       </div>
     </div> 
