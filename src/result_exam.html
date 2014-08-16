@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>交卷 -- 题管家</title>
+	<link rel="stylesheet" href="jquery_mobile/jquery.mobile-1.4.3.min.css" />
+    <link rel="stylesheet" href="css/mobile/common.css" />
+    <link rel="stylesheet" href="css/mobile/result_exam.css"/>
+    <script src="jquery_mobile/jquery.min.js"></script>
+    <script src="jquery_mobile/jquery.mobile-1.4.3.min.js"></script>
+    <script src="js/mobile/index.js"></script>
+</head>
+
+<body>
+	<div data-role="page">
+      <div data-role="header" data-position="fixed">
+      	<button data-icon="back" data-iconpos="notext"></button>
+        <h1>交卷</h1>
+      </div>
+      <div class="map">
+      	<!--条形统计图-->
+      </div>
+      <ul class="resultShow">
+      	<li class="resultShowItem">
+        	<p class="scoreTitle">正确率</p>
+            <h1 class="answerContent">80%</h1>
+        </li>
+      	<li class="resultShowItem">
+        	<p class="scoreTitle">排名</p>
+            <h1 class="answerContent">6</h1>
+        </li>
+      	<li class="resultShowItem">
+        	<p class="scoreTitle">评级</p>
+            <h1 class="answerContent">A</h1>
+        </li>
+      </ul>
+      <p class="titleCard">答题卡</p>
+      <ul class="answerCard">
+        <li class="stide">1</li>
+        <li class="stide">2</li>
+        <li class="stide">3</li>
+        <li class="stide">4</li>
+        <li class="stide">5</li>
+        <li class="stide">6</li>
+        <li class="stide">7</li>
+        <li class="stide">8</li>
+        <li class="stide">9</li>
+        <li class="stide">10</li>
+      </ul>
+      <div data-role="footer" data-position="fixed" data-fullscreen="true">
+          <form action="" method="post">
+            <button type="button" class="onlyLookError" data-role="none" name="commitAndResult">只看错题</button>
+            <button type="button" class="lookAll" data-role="none" name="commitAndResult">查看全部题目</button>
+          </form>
+      </div>
+    </div> 
+</body>
+</html>
