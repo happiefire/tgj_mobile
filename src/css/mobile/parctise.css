@@ -49,3 +49,7 @@
 	text-align:left;
 	margin-left:15px;
 }
+
+.options:hover{
+	background-color:#DDD;
+}

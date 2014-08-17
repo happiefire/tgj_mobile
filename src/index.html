@@ -13,13 +13,13 @@
 
 <body>
 	<div data-role="page">
-      <div data-role="header" data-position="fixed">
+      <div data-role="header">
       	<button data-icon="grid" id="btnMenu" data-iconpos="notext"></button>
         <h1>首页</h1>
       </div>
       <ul id="messageInfo">
       	<li class="info">孙老师邀请你参加一个练习。</li>
-        <li class="join">参加</li>
+        <li class="join" onclick="javascript:location.href='practise_prompt.html'">参加</li>
       </ul>
       <div id="map">
       	<!--此处用来放成绩图片-->
@@ -52,13 +52,13 @@
       <div id="menu">
       	<ul class="menu_options">
         	<li class="menu_option"></li>
-        	<li class="menu_option">首页</li>
-        	<li class="menu_option">练习中心</li>
-        	<li class="menu_option">学情报告</li>
+        	<li class="menu_option" onClick="javascript:location.href='index.html'">首页</li>
+        	<li class="menu_option" onClick="javascript:location.href='practise_center.html'">练习中心</li>
+        	<li class="menu_option" onClick="javascript:location.href='study_report.html'">学情报告</li>
         </ul>
         <ul class="menu_options_info">
         	<li class="menu_option_info">班级：XXXX班</li>
-        	<li class="menu_option_info">个人中心</li>
+        	<li class="menu_option_info" onClick="javascript:location.href='individual_center.html'">个人中心</li>
         </ul>
       </div>
     </div> 

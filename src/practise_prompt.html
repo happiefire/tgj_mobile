@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="css/mobile/parctise_prompt.css"/>
     <script src="jquery_mobile/jquery.min.js"></script>
     <script src="jquery_mobile/jquery.mobile-1.4.3.min.js"></script>
+    <script src="js/mobile/practise_prompt.js"></script>
 </head>
 
 <body>
 	<div data-role="page">
       <div data-role="header">
-      	<button data-icon="arrow-l" data-iconpos="notext"></button>
+      	<button data-icon="arrow-l" data-transition="slide" onclick="javascript:location.href='index.html'" data-iconpos="notext"></button>
         <h1>练习</h1>
       </div>
       <div data-role="content">
@@ -22,12 +23,10 @@
         </p>
         
         <div class="auto">
-        	<form action="" method="post">
-                <input type="checkbox" name="autoNext" data-role="none" class="ckbox" id="choose"/> 
-                <label for="choose" class="displayInfo">选择答案后自动进入下一题</label>
-                
-                <button type="submit" id="login">立即开始练习</button>
-            </form>
+			<input type="checkbox" name="autoNext" data-role="none" class="ckbox" id="choose"/> 
+			<label for="choose" class="displayInfo">选择答案后自动进入下一题</label>
+			
+			<button type="button" id="startPractise">立即开始练习</button>
         </div>
         
       </div>

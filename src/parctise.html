@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/mobile/parctise.css"/>
     <script src="jquery_mobile/jquery.min.js"></script>
     <script src="jquery_mobile/jquery.mobile-1.4.3.min.js"></script>
+    <script src="js/mobile/parctise.js"></script>
 </head>
 
 <body>
 	<div data-role="page">
       <div data-role="header">
-          <a href="#" class="ui-btn-left">退出</a>
-          <button data-icon="grid" data-iconpos="notext"></button>
-          <a href="#" class="ui-btn-right">交卷</a>
+          <a onclick="javascript:location.href='index.html'" class="ui-btn-left">退出</a>
+          <button data-icon="grid" onclick="javascript:location.href='practice_list.html'" data-iconpos="notext"></button>
+          <a onclick="javascript:location.href='result_exam.html'" href="result_exam.html" class="ui-btn-right">交卷</a>
       </div>
       <ul id="titleInfo">
         <li class="info">单选题</li>
@@ -26,16 +27,16 @@
         	已知集合 M = {x|-3&lt;x&lt;1}， N = {-3，-2，-1，0,1}，则 M ^ N = ()?
         </li>
       </ul>
-      <ul class="options">
+      <ul class="options" id="a">
       	<li class="option">A. {-2，-1,0,1}</li>
       </ul>
-      <ul class="options">
+      <ul class="options" id="b">
       	<li class="option">B. {-3，-2，-1,0}</li>
       </ul>
-      <ul class="options">
+      <ul class="options" id="c">
       	<li class="option">C. {-2，-1,0}</li>
       </ul>
-      <ul class="options">
+      <ul class="options" id="d">
       	<li class="option">D. {-3，-2，-1}</li>
       </ul>
     </div>
